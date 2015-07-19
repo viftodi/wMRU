@@ -18,6 +18,6 @@ Walt's Most Recently Used
 
 ###USAGE
 
-./wMRU get will retrieve all the entries
-./wMRU add an entry here  will add or move the "an entry here" to the top of the list
+./wMRU get tag_name will retrieve all the entries
+./wMRU add tag_name an entry here  will add or move the "an entry here" to the top of the list
 
