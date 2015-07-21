@@ -1,6 +1,5 @@
 open Batteries
 
-let fname = Sys.getenv "HOME" ^ "/.wMRU"
 let rw_perm = BatFile.perm [BatFile.user_read ; BatFile.user_write]
 
 let get_path fname = Sys.getenv "HOME" ^ "/." ^ fname
